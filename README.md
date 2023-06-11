@@ -36,7 +36,7 @@ e. When the web page is scrolled, make sure that the navigation bar is still see
 
 6. When clicked on Lab Test in the Navigation bar, a form shall open with validation in a new page with following details.
 
-  a.Form shall have Patient Contact Details as follows.
+  a. Form shall have Patient Contact Details as follows.
   
     i.Full Name
     
@@ -45,24 +45,42 @@ e. When the web page is scrolled, make sure that the navigation bar is still see
     iii.Contact Number
     
     iv.Email Id
-  b.Address
+  b. Address
+  
     i.House Number
+    
     ii.Street
+    
     iii.Area
+    
     iv.District (List. Make Sure first option is “Choose”)
-  c.Choose the Test Type. Show a message (Check atleast one box without fail)
+    
+  c. Choose the Test Type. Show a message (Check atleast one box without fail)
+    
     i.CBC
+    
     ii.Complete Urine
+    
     iii.Lipid Profile
+    
     iv.Thyroid Stimulating Hormone(TSH)
+    
     v.Glucose Test
-  d.Do you want a hard copy of the report also?
-    i.Yes
-    ii.No
-  e.Select Your Comfortable Date and Time
+    
+  d. Do you want a hard copy of the report also?
+     
+     i.Yes
+     
+     ii.No
+     
+  e. Select Your Comfortable Date and Time
+    
     i.Date
+    
     ii.Time
+  
   f.Reset and Submit button
+  
 7. On the Right Side of the form insert an image which will not move when you scroll the page. Make Sure Your form looks as below.
 
 General Instructions:
