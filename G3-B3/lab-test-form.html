@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Test</title>
+    <link rel="stylesheet" href="lab-test-form.css" />
+    <!-- <script src="script.js"></script> -->
+  </head>
+
+  <body>
+    <h1>Lab Test Form</h1>
+
+    <div class="container">
+      <form id="testForm" action="#">
+        <img src="./images/Lab-Test/lab-test.jpg" alt="Lab-Test" />
+        <br />
+        <p>1. Contact Details</p>
+        <div class="row">
+          <div class="column">
+            <input
+              type="text"
+              name="full_name"
+              title="F_Name"
+              placeholder="Full Name"
+              required
+            />
+          </div>
+          <div class="column">
+            <input
+              type="number"
+              name="patient_id"
+              title="P_Id"
+              placeholder="Patient Id"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <input
+              type="number"
+              name="contact_number"
+              title="contact"
+              placeholder="Contact Number"
+              min="6666666666"
+              max="9999999999"
+              required
+            />
+          </div>
+          <div class="column">
+            <input
+              type="email"
+              name="email"
+              title="Mail"
+              placeholder="E-mail Id"
+            />
+          </div>
+        </div>
+        <br />
+
+        <p>2. Address</p>
+        <div class="row">
+          <div class="column">
+            <input
+              type="text"
+              name="house_number"
+              title="H.No"
+              placeholder="House Number"
+              required
+            />
+          </div>
+          <div class="column">
+            <input
+              type="text"
+              name="street"
+              title="Street"
+              placeholder="Street"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <input type="text" name="area" title="Area" placeholder="Area" />
+          </div>
+          <div class="column">
+            <input
+              type="text"
+              name="district"
+              title="District"
+              placeholder="District"
+              required
+            />
+          </div>
+        </div>
+        <div class="address">
+          <label for="state">State:</label>
+          <select name="state" title="State">
+            <option value="Choose">Choose</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Andaman and Nicobar Islands">
+              Andaman and Nicobar Islands
+            </option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Dadra and Nagar Haveli">
+              Dadra and Nagar Haveli
+            </option>
+            <option value="Daman and Diu">Daman and Diu</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Puducherry">Puducherry</option>
+          </select>
+        </div>
+
+        <br />
+
+        <p>3. Test Type</p>
+        <h5>(* Check at least one box without fail)</h5>
+        <div class="Lab_test">
+          <input type="checkbox" name="test_type[]" title="Test1" value="CBC" />
+          <label for="Test1">CBC</label><br />
+
+          <input
+            type="checkbox"
+            name="test_type[]"
+            title="Test2"
+            value="Complete Urine"
+          />
+          <label for="Test2">Complete Urine</label><br />
+
+          <input
+            type="checkbox"
+            name="test_type[]"
+            title="Test3"
+            value="Lipid Profile"
+          />
+          <label for="Test3">Lipid Profile</label><br />
+
+          <input
+            type="checkbox"
+            name="test_type[]"
+            title="Test4"
+            value="Thyroid Stimulating Hormone (TSH)"
+          />
+          <label for="Test4">Thyroid Stimulating Hormone (TSH)</label><br />
+
+          <input
+            type="checkbox"
+            name="test_type[]"
+            title="Test5"
+            value="Glucose Test"
+          />
+          <label for="Test5">Glucose Test</label>
+        </div>
+        <br />
+
+        <p>4. Do you want a hard copy of the report also?</p>
+        <div class="Lab_test">
+          <input type="radio" name="report_copy" title="option1" value="Yes" />
+          <label for="option1">Yes</label><br />
+
+          <input type="radio" name="report_copy" title="option2" value="No" />
+          <label for="option2">No</label>
+        </div>
+        <br />
+
+        <p>5. Select your Comfortable Date and Time</p>
+        <div class="contact_detail">
+          <input
+            type="date"
+            name="date"
+            title="Date"
+            placeholder="Date"
+            required
+          />
+          <br />
+
+          <input
+            type="time"
+            name="time"
+            title="Time"
+            placeholder="Time"
+            required
+          />
+          <br />
+        </div>
+        <br />
+      </form>
+    </div>
+    <div class="button-container">
+      <button id="reset" type="reset" value="Reset">Reset</button>
+      <button id="submit" type="submit" value="Submit">Submit</button>
+    </div>
+
+    <script>
+      // Reset the form
+      document.getElementById("reset").addEventListener("click", function () {
+        document.getElementById("testForm").reset();
+      });
+
+      // Submit the form and redirect with alert message
+      document.getElementById("submit").addEventListener("click", function () {
+        // Assuming you want to redirect to index.html
+        window.location.href = "index.html";
+        alert("Your details have been submitted.");
+      });
+    </script>
+  </body>
+</html>
