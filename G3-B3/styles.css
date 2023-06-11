@@ -51,8 +51,8 @@ nav {
   display: block;
 }
 
-#ads:hover{
-    cursor: pointer;
+#ads:hover {
+  cursor: pointer;
 }
 
 #sm1 {
@@ -64,7 +64,7 @@ nav {
   padding: 0;
   z-index: 1;
   margin-top: 31px;
-  left: 0px
+  left: 0px;
 }
 
 #sm2 {
@@ -89,8 +89,6 @@ nav {
   display: block;
 }
 
-
-
 section > p {
   font-size: 26px;
   font-weight: bold;
@@ -114,56 +112,56 @@ section > h2:hover {
 }
 
 .products {
-    width: 175px;
-    height: 310px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Add space between elements */
-    align-items: center; /* Center align items horizontally */
-    background-color: whitesmoke;
-    box-shadow: 1px;
-    border-radius: 3px;
-    line-height: 30px;
-    margin: inherit;
-    vertical-align: top;
-    text-align: center;
-    box-sizing: border-box;
-    position: relative; /* Add relative positioning */
-  }
-  
-  .products p {
-    color: steelblue;
-    margin: 0;
-  }
-  
-  .cart {
-    min-width: 140px;
-    text-align: center;
-    border: 1px solid;
-    border-radius: 5px;
-    background-color: whitesmoke;
-    border-color: gray;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .cart a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: orange;
-  }
-  
-  .pro_img {
-    width: 150px;
-    height: 100px;
-    padding: 5px;
-    margin: 0 auto;
-    display: block;
-  }
+  width: 175px;
+  height: 310px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Add space between elements */
+  align-items: center; /* Center align items horizontally */
+  background-color: whitesmoke;
+  box-shadow: 1px;
+  border-radius: 3px;
+  line-height: 30px;
+  margin: inherit;
+  vertical-align: top;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative; /* Add relative positioning */
+}
+
+.products p {
+  color: steelblue;
+  margin: 0;
+}
+
+.cart {
+  min-width: 140px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  border-color: gray;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cart a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: orange;
+}
+
+.pro_img {
+  width: 150px;
+  height: 100px;
+  padding: 5px;
+  margin: 0 auto;
+  display: block;
+}
 
 .cart:active {
   background-color: rgb(250, 234, 230);
