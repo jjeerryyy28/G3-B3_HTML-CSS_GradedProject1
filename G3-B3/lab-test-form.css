@@ -209,3 +209,8 @@ button {
     margin-left: 55%;
   }
 }
+
+.no-underline {
+  text-decoration: none;
+  color: inherit;
+}

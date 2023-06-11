@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medical Test</title>
     <link rel="stylesheet" href="lab-test-form.css" />
-    <!-- <script src="script.js"></script> -->
   </head>
 
   <body>
@@ -216,21 +215,18 @@
       </form>
     </div>
     <div class="button-container">
-      <button id="reset" type="reset" value="Reset">Reset</button>
-      <button id="submit" type="submit" value="Submit">Submit</button>
+      <button id="reset" type="reset" value="Reset">
+        <a href="#" class="no-underline">Reset</a>
+      </button>
+      <button id="submit" type="submit" value="Submit">
+        <a href="./index.html" class="no-underline">Submit</a>
+      </button>
     </div>
 
     <script>
       // Reset the form
       document.getElementById("reset").addEventListener("click", function () {
         document.getElementById("testForm").reset();
-      });
-
-      // Submit the form and redirect with alert message
-      document.getElementById("submit").addEventListener("click", function () {
-        // Assuming you want to redirect to index.html
-        window.location.href = "index.html";
-        alert("Your details have been submitted.");
       });
     </script>
   </body>
